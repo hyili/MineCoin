@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release -S . -B build
+cd build/; make -j 4
